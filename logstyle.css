@@ -1,0 +1,122 @@
+@import url ('https://fonts.googleapis.com/css2? family = Linden + Hill & display = swap');
+*{margin:0;
+padding:o;
+font-family:'linden hill',san-serif
+}
+body{
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEcAdDAQ13mu3qrqDLWtqheSfOd-Y4g5of_A&usqp=CAU);
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;
+}
+.container{
+  display:flex;
+  justify-content:center;
+  widht:100px;
+  margin-top:100px;
+}
+.card{
+  background-color:#ffffff95;
+  padding:30px;
+  border-radius:44%  0% ;
+  box-shadow:6px 6px 1px 0px #273;
+  
+  
+}
+h1{
+  text-align:center;
+  margin-bottom:15px;
+  color:#300;
+}
+.label-float input{
+  width:100%;
+  padding:5px 5px;
+    display:inline-block;
+  border:0;
+  border-bottom:2px solid #273;
+  background-color:transparent;
+  outline:none;
+  min-width:180px;
+  font-size:16px;
+  transition:all .3s ease-out;
+  border-radius:0;
+  
+}
+.label-float{
+  position:relative;
+  padding-top:13px;
+  margin-top:5%;
+  margin-bottom:5%;
+  
+}
+.label-float input:focus{
+  border-bottom:2px solid #4038a0;
+}
+.label-float label{
+  color:#273;
+  pointer-event:none;
+  position:absolute;
+  top:0;
+  left:0;
+  margin-top:13px;
+    transition:all .3s ease-out;
+}
+.label-float input:focus + label,
+.label-float input:valid + label{
+  font-size:13px;
+  margin-top:0;
+  color:#273;
+    
+}
+button{
+  background-color:transparent;
+  border-color:#273;
+  color:#273;
+  padding:7px;
+  font-weight:bold;
+  front-size:12pt;
+  margin-top:17px;
+  border-radius:7px;
+  cursor:pointer;
+  outline:none;
+  transition:all .4s ease-out;
+  
+  
+}
+button:hover{
+  background-color:#273;
+  color:#fff;
+  
+  
+}//centralizar botao entrar
+.justify-center{
+  display://flex;
+  justify-content:center;
+}
+hr{
+  margin-top://nao optei10%;
+  margin-botton:10%;
+  widht:60%;
+}
+p{
+  color:#273;
+  font-size:14pt;
+  text-align:center
+}
+a{
+  color:#300;
+  font-weight:bold;
+  text-decoration:none;
+}
+a:hover{
+  color:#900;
+  transition:all .4s ease-out;
+}
+.fa-eye{
+  position:absolute;
+  top:22px;
+  right:10px;
+  cursor:pointer;
+  color:#272;
+  
+}
